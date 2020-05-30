@@ -1,11 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <ItemGroup>
-    <ProjectReference Include="..\CodingCat.Crypto.Abstractions\CodingCat.Crypto.Abstractions.csproj" />
+    <ProjectReference Include="..\CodingCat.Crypto.Abstractions\CodingCat.Crypto.Abstractions.csproj"/>
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="System.Security.Cryptography.Csp" Version="4.3.0"/>
+  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
 </Project>
